@@ -1,0 +1,1001 @@
+abr 05 10:57:55 konton systemd[1053]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+abr 05 10:57:55 konton systemd[1053]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+abr 05 10:57:55 konton systemd[1053]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+abr 05 10:57:55 konton systemd[1053]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+abr 05 10:57:55 konton systemd[1053]: Listening on keyboxd.socket - GnuPG public key management service.
+abr 05 10:57:55 konton systemd[1053]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+abr 05 10:57:55 konton systemd[1053]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+abr 05 10:57:55 konton systemd[1053]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+abr 05 10:57:55 konton systemd[1053]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+abr 05 10:57:55 konton systemd[1053]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+abr 05 10:57:55 konton systemd[1053]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+abr 05 10:57:55 konton systemd[1053]: Reached target sockets.target - Sockets.
+abr 05 10:57:55 konton systemd[1053]: Reached target basic.target - Basic System.
+abr 05 10:57:55 konton systemd[1053]: Starting dbus.service - D-Bus User Message Bus...
+abr 05 10:57:55 konton systemd[1053]: Started pipewire.service - PipeWire Multimedia Service.
+abr 05 10:57:55 konton systemd[1053]: Started filter-chain.service - PipeWire filter chain daemon.
+abr 05 10:57:55 konton systemd[1053]: Starting fluidsynth.service - FluidSynth Daemon...
+abr 05 10:57:55 konton systemd[1053]: Started wireplumber.service - Multimedia Service Session Manager.
+abr 05 10:57:55 konton systemd[1053]: Started pipewire-pulse.service - PipeWire PulseAudio.
+abr 05 10:57:55 konton systemd[1053]: Started dbus.service - D-Bus User Message Bus.
+abr 05 10:57:55 konton wireplumber[1079]: wp-internal-comp-loader: Loading profile 'main'
+abr 05 10:57:55 konton fluidsynth[1093]: Failed to create secure directory (/run/user/1000/pulse): Read-only file system
+abr 05 10:57:55 konton fluidsynth[1093]: Failed to create secure directory (/run/user/1000/pulse): Read-only file system
+abr 05 10:57:55 konton fluidsynth[1093]: Failed to create secure directory (/run/user/1000/pulse): Read-only file system
+abr 05 10:57:55 konton systemd[1053]: Started fluidsynth.service - FluidSynth Daemon.
+abr 05 10:57:55 konton systemd[1053]: Reached target default.target - Main User Target.
+abr 05 10:57:55 konton systemd[1053]: Startup finished in 656ms.
+abr 05 10:57:55 konton fluidsynth[1093]: fluidsynth: warning: Failed to set thread to high priority
+abr 05 10:57:55 konton fluidsynth[1093]: ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+abr 05 10:57:55 konton fluidsynth[1093]: fluidsynth: error: Failed to open the "default" audio device
+abr 05 10:57:55 konton fluidsynth[1093]: Failed to create the audio driver. Giving up.
+abr 05 10:57:56 konton wireplumber[1079]: wp-device: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
+abr 05 10:57:56 konton wireplumber[1079]: s-monitors: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
+abr 05 10:57:56 konton wireplumber[1079]: wp-device: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
+abr 05 10:57:56 konton wireplumber[1079]: s-monitors: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
+abr 05 10:57:56 konton wireplumber[1079]: pw.resource: can't create node: Arquivo ou diretório inexistente
+abr 05 10:57:56 konton wireplumber[1079]: wp-node: failed to create node from factory 'spa-node-factory'
+abr 05 10:57:56 konton wireplumber[1079]: s-monitors: Failed to create BLE MIDI server.
+abr 05 10:57:56 konton wireplumber[1079]: wp-device: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+abr 05 10:57:56 konton wireplumber[1079]: s-monitors-libcamera: PipeWire's libcamera SPA plugin is missing or broken. Some camera types may not be supported.
+abr 05 10:58:23 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.10' (uid=1000 pid=1169 comm="rofi -show drun")
+abr 05 10:58:23 konton systemd[1053]: Starting gvfs-daemon.service - Virtual filesystem service...
+abr 05 10:58:23 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Successfully activated service 'org.gtk.vfs.Daemon'
+abr 05 10:58:23 konton systemd[1053]: Started gvfs-daemon.service - Virtual filesystem service.
+abr 05 10:58:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.12' (uid=1000 pid=1184 comm="/usr/lib/firefox-esr/firefox-esr")
+abr 05 10:58:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.12' (uid=1000 pid=1184 comm="/usr/lib/firefox-esr/firefox-esr")
+abr 05 10:58:25 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 10:58:25 konton systemd[1053]: Starting at-spi-dbus-bus.service - Accessibility services bus...
+abr 05 10:58:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Successfully activated service 'org.a11y.Bus'
+abr 05 10:58:25 konton systemd[1053]: Started at-spi-dbus-bus.service - Accessibility services bus.
+abr 05 10:58:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.14' (uid=1000 pid=1254 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 10:58:25 konton systemd[1053]: Starting xdg-permission-store.service - sandboxed app permission store...
+abr 05 10:58:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+abr 05 10:58:25 konton systemd[1053]: Started xdg-permission-store.service - sandboxed app permission store.
+abr 05 10:58:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.14' (uid=1000 pid=1254 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 10:58:25 konton systemd[1053]: Starting xdg-document-portal.service - flatpak document portal service...
+abr 05 10:58:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Successfully activated service 'org.freedesktop.portal.Documents'
+abr 05 10:58:25 konton systemd[1053]: Started xdg-document-portal.service - flatpak document portal service.
+abr 05 10:58:25 konton xdg-desktop-por[1254]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 10:58:25 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 10:58:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.14' (uid=1000 pid=1254 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 10:58:25 konton xdg-desktop-por[1299]: cannot open display: 
+abr 05 10:58:25 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 10:58:25 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 10:58:25 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 10:58:50 konton xdg-desktop-por[1254]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 10:59:15 konton xdg-desktop-por[1254]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 10:59:15 konton xdg-desktop-por[1254]: No skeleton to export
+abr 05 10:59:15 konton xdg-desktop-por[1254]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 10:59:40 konton xdg-desktop-por[1254]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 10:59:40 konton xdg-desktop-por[1254]: No skeleton to export
+abr 05 10:59:40 konton xdg-desktop-por[1254]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 10:59:55 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 10:59:55 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 10:59:55 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 11:00:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 11:00:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 11:10:33 konton steam-runtime-steam-remote[11914]: steam-runtime-steam-remote: Steam is not running: No such device or address
+abr 05 11:10:38 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.18' (uid=1000 pid=12066 comm="/home/konton/.local/share/Steam/ubuntu12_32/steam")
+abr 05 11:10:38 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 11:10:38 konton xdg-desktop-por[12074]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 11:10:38 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.19' (uid=1000 pid=12074 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 11:10:38 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 11:10:38 konton xdg-desktop-por[12079]: cannot open display: 
+abr 05 11:10:38 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 11:10:38 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 11:10:38 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 11:10:44 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.28' (uid=1000 pid=12263 comm="./steamwebhelper -nocrashdialog -lang=en_US -cache")
+abr 05 11:10:44 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 11:10:44 konton dunst[12341]: WARNING: Cannot open X11 display.
+abr 05 11:10:44 konton dunst[12341]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 11:10:44 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 11:10:44 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 11:10:44 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 11:11:03 konton xdg-desktop-por[12074]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 11:11:28 konton xdg-desktop-por[12074]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 11:11:28 konton xdg-desktop-por[12074]: No skeleton to export
+abr 05 11:11:28 konton xdg-desktop-por[12074]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 11:11:53 konton xdg-desktop-por[12074]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 11:11:53 konton xdg-desktop-por[12074]: No skeleton to export
+abr 05 11:11:53 konton xdg-desktop-por[12074]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 11:12:08 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 11:12:08 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 11:12:08 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 11:12:38 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 11:12:38 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 11:12:44 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 11:46:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.38' (uid=1000 pid=15650 comm="kitty")
+abr 05 11:46:25 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 11:46:25 konton xdg-desktop-por[15651]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 11:46:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.39' (uid=1000 pid=15651 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 11:46:25 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 11:46:25 konton xdg-desktop-por[15656]: cannot open display: 
+abr 05 11:46:25 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 11:46:25 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 11:46:25 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 11:46:26 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.38' (uid=1000 pid=15650 comm="kitty")
+abr 05 11:46:26 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 11:46:26 konton systemd[1053]: Started kitty-15650-0.scope - kitty child process: 15661 launched by: 15650.
+abr 05 11:46:26 konton dunst[15659]: WARNING: Cannot open X11 display.
+abr 05 11:46:26 konton dunst[15659]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 11:46:26 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 11:46:26 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 11:46:26 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 11:46:50 konton xdg-desktop-por[15651]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 11:47:15 konton xdg-desktop-por[15651]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 11:47:15 konton xdg-desktop-por[15651]: No skeleton to export
+abr 05 11:47:15 konton xdg-desktop-por[15651]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 11:47:41 konton xdg-desktop-por[15651]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 11:47:41 konton xdg-desktop-por[15651]: No skeleton to export
+abr 05 11:47:41 konton xdg-desktop-por[15651]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 11:47:56 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 11:47:56 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 11:47:56 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 11:48:21 konton systemd[1053]: Started kitty-15650-1.scope - kitty child process: 15833 launched by: 15650.
+abr 05 11:48:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 11:48:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 11:48:26 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 11:51:33 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.44' (uid=1000 pid=16105 comm="./amd64/SuperMeatBoy")
+abr 05 11:51:33 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 11:51:33 konton xdg-desktop-por[16137]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 11:51:33 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.45' (uid=1000 pid=16137 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 11:51:33 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 11:51:33 konton xdg-desktop-por[16142]: cannot open display: 
+abr 05 11:51:33 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 11:51:33 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 11:51:33 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 11:51:58 konton xdg-desktop-por[16137]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 11:52:23 konton xdg-desktop-por[16137]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 11:52:23 konton xdg-desktop-por[16137]: No skeleton to export
+abr 05 11:52:23 konton xdg-desktop-por[16137]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 11:52:48 konton xdg-desktop-por[16137]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 11:52:48 konton xdg-desktop-por[16137]: No skeleton to export
+abr 05 11:52:48 konton xdg-desktop-por[16137]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 11:53:03 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 11:53:03 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 11:53:03 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 11:53:33 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 11:53:33 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 12:38:45 konton systemd[1053]: Started app-org.chromium.Chromium-19329.scope.
+abr 05 12:38:45 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.51' (uid=1000 pid=19329 comm="/usr/share/code/code")
+abr 05 12:38:45 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 12:38:45 konton xdg-desktop-por[19386]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 12:38:45 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.53' (uid=1000 pid=19386 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 12:38:45 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 12:38:45 konton xdg-desktop-por[19393]: cannot open display: 
+abr 05 12:38:45 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 12:38:45 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 12:38:45 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 12:39:10 konton xdg-desktop-por[19386]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 12:39:35 konton xdg-desktop-por[19386]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 12:39:35 konton xdg-desktop-por[19386]: No skeleton to export
+abr 05 12:39:35 konton xdg-desktop-por[19386]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 12:40:00 konton xdg-desktop-por[19386]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 12:40:00 konton xdg-desktop-por[19386]: No skeleton to export
+abr 05 12:40:00 konton xdg-desktop-por[19386]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 12:40:15 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 12:40:15 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 12:40:15 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 12:40:45 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 12:40:45 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 12:43:48 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.58' (uid=1000 pid=22469 comm="kitty")
+abr 05 12:43:48 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 12:43:48 konton xdg-desktop-por[22470]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 12:43:48 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.59' (uid=1000 pid=22470 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 12:43:48 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 12:43:48 konton xdg-desktop-por[22475]: cannot open display: 
+abr 05 12:43:48 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 12:43:48 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 12:43:48 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 12:43:48 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.58' (uid=1000 pid=22469 comm="kitty")
+abr 05 12:43:48 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 12:43:48 konton systemd[1053]: Started kitty-22469-0.scope - kitty child process: 22485 launched by: 22469.
+abr 05 12:43:48 konton dunst[22479]: WARNING: Cannot open X11 display.
+abr 05 12:43:48 konton dunst[22479]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 12:43:48 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 12:43:48 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 12:43:48 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 12:44:13 konton xdg-desktop-por[22470]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 12:44:38 konton xdg-desktop-por[22470]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 12:44:38 konton xdg-desktop-por[22470]: No skeleton to export
+abr 05 12:44:38 konton xdg-desktop-por[22470]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 12:45:03 konton xdg-desktop-por[22470]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 12:45:03 konton xdg-desktop-por[22470]: No skeleton to export
+abr 05 12:45:03 konton xdg-desktop-por[22470]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 12:45:18 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 12:45:18 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 12:45:18 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 12:45:48 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 12:45:48 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 12:45:48 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 13:09:34 konton systemd[1053]: Started kitty-22469-1.scope - kitty child process: 24181 launched by: 22469.
+abr 05 13:09:34 konton systemd[1053]: kitty-22469-0.scope: Consumed 6.454s CPU time, 28.4M memory peak.
+abr 05 13:33:14 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.118' (uid=1000 pid=26666 comm="kitty")
+abr 05 13:33:14 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 13:33:14 konton xdg-desktop-por[26667]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 13:33:14 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.119' (uid=1000 pid=26667 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 13:33:14 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 13:33:14 konton xdg-desktop-por[26672]: cannot open display: 
+abr 05 13:33:14 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 13:33:14 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 13:33:14 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 13:33:14 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.118' (uid=1000 pid=26666 comm="kitty")
+abr 05 13:33:14 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 13:33:14 konton systemd[1053]: Started kitty-26666-0.scope - kitty child process: 26682 launched by: 26666.
+abr 05 13:33:14 konton dunst[26676]: WARNING: Cannot open X11 display.
+abr 05 13:33:14 konton dunst[26676]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 13:33:14 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 13:33:14 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 13:33:14 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 13:33:39 konton xdg-desktop-por[26667]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 13:34:04 konton xdg-desktop-por[26667]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 13:34:04 konton xdg-desktop-por[26667]: No skeleton to export
+abr 05 13:34:04 konton xdg-desktop-por[26667]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 13:34:29 konton xdg-desktop-por[26667]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 13:34:29 konton xdg-desktop-por[26667]: No skeleton to export
+abr 05 13:34:29 konton xdg-desktop-por[26667]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 13:34:44 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 13:34:44 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 13:34:44 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 13:35:14 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 13:35:14 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 13:35:14 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 14:25:32 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.310' (uid=1000 pid=30606 comm="/usr/share/discord/Discord")
+abr 05 14:25:32 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 14:25:32 konton xdg-desktop-por[30657]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 14:25:32 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.312' (uid=1000 pid=30657 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 14:25:32 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 14:25:32 konton xdg-desktop-por[30663]: cannot open display: 
+abr 05 14:25:32 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 14:25:32 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 14:25:32 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 14:25:43 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.318' (uid=1000 pid=30910 comm="kitty")
+abr 05 14:25:43 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 14:25:43 konton systemd[1053]: Started kitty-30910-0.scope - kitty child process: 30920 launched by: 30910.
+abr 05 14:25:43 konton dunst[30914]: WARNING: Cannot open X11 display.
+abr 05 14:25:43 konton dunst[30914]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 14:25:43 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 14:25:43 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 14:25:43 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 14:25:57 konton xdg-desktop-por[30657]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 14:25:58 konton systemd[1053]: Started kitty-30910-1.scope - kitty child process: 30947 launched by: 30910.
+abr 05 14:26:01 konton systemd[1053]: Started kitty-30960-0.scope - kitty child process: 30968 launched by: 30960.
+abr 05 14:26:06 konton systemd[1053]: Started kitty-30960-1.scope - kitty child process: 31002 launched by: 30960.
+abr 05 14:26:22 konton xdg-desktop-por[30657]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:26:22 konton xdg-desktop-por[30657]: No skeleton to export
+abr 05 14:26:22 konton xdg-desktop-por[30657]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 14:26:47 konton xdg-desktop-por[30657]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:26:47 konton xdg-desktop-por[30657]: No skeleton to export
+abr 05 14:26:47 konton xdg-desktop-por[30657]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 14:27:02 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 14:27:02 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 14:27:02 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 14:27:32 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 14:27:32 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 14:27:43 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 14:28:00 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.329' (uid=1000 pid=31084 comm="easyeffects")
+abr 05 14:28:00 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 14:28:00 konton xdg-desktop-por[31091]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 14:28:00 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.330' (uid=1000 pid=31091 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 14:28:00 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 14:28:00 konton xdg-desktop-por[31096]: cannot open display: 
+abr 05 14:28:00 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 14:28:00 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 14:28:00 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 14:28:02 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.331' (uid=1000 pid=31099 comm="kitty")
+abr 05 14:28:02 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 14:28:02 konton systemd[1053]: Started kitty-31099-0.scope - kitty child process: 31108 launched by: 31099.
+abr 05 14:28:02 konton dunst[31102]: WARNING: Cannot open X11 display.
+abr 05 14:28:02 konton dunst[31102]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 14:28:02 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 14:28:02 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 14:28:02 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 14:28:25 konton easyeffects[31084]: pw.conf: setting config.name to client-rt.conf is deprecated, using client.conf
+abr 05 14:28:25 konton xdg-desktop-por[31091]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 14:28:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.329' (uid=1000 pid=31084 comm="easyeffects")
+abr 05 14:28:25 konton systemd[1053]: Starting dconf.service - User preferences database...
+abr 05 14:28:25 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Successfully activated service 'ca.desrt.dconf'
+abr 05 14:28:25 konton systemd[1053]: Started dconf.service - User preferences database.
+abr 05 14:28:26 konton at-spi-bus-launcher[12194]: dbus-daemon[12194]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=31084 comm="easyeffects")
+abr 05 14:28:26 konton at-spi-bus-launcher[12194]: dbus-daemon[12194]: Successfully activated service 'org.a11y.atspi.Registry'
+abr 05 14:28:26 konton at-spi-bus-launcher[31162]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+abr 05 14:28:50 konton xdg-desktop-por[31091]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:28:50 konton xdg-desktop-por[31091]: No skeleton to export
+abr 05 14:28:50 konton xdg-desktop-por[31091]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 14:29:15 konton xdg-desktop-por[31091]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:29:15 konton xdg-desktop-por[31091]: No skeleton to export
+abr 05 14:29:15 konton xdg-desktop-por[31091]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 14:29:30 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 14:29:30 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 14:29:30 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 14:29:35 konton systemd[1053]: Started kitty-31193-0.scope - kitty child process: 31201 launched by: 31193.
+abr 05 14:29:37 konton sudo[31211]:   konton : TTY=pts/7 ; PWD=/home/konton ; USER=root ; COMMAND=/usr/sbin/alsactl store
+abr 05 14:29:37 konton sudo[31211]: pam_unix(sudo:session): session opened for user root(uid=0) by konton(uid=1000)
+abr 05 14:29:37 konton sudo[31211]: pam_unix(sudo:session): session closed for user root
+abr 05 14:29:46 konton systemd[1053]: Started kitty-31099-1.scope - kitty child process: 31223 launched by: 31099.
+abr 05 14:30:00 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 14:30:00 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 14:30:02 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 14:31:11 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.340' (uid=1000 pid=31421 comm="kitty")
+abr 05 14:31:11 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 14:31:11 konton xdg-desktop-por[31423]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 14:31:11 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.341' (uid=1000 pid=31423 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 14:31:11 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 14:31:11 konton xdg-desktop-por[31428]: cannot open display: 
+abr 05 14:31:11 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 14:31:11 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 14:31:11 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 14:31:11 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.340' (uid=1000 pid=31421 comm="kitty")
+abr 05 14:31:11 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 14:31:11 konton systemd[1053]: Started kitty-31421-0.scope - kitty child process: 31439 launched by: 31421.
+abr 05 14:31:11 konton dunst[31433]: WARNING: Cannot open X11 display.
+abr 05 14:31:11 konton dunst[31433]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 14:31:11 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 14:31:11 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 14:31:11 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 14:31:36 konton xdg-desktop-por[31423]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 14:32:01 konton xdg-desktop-por[31423]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:32:01 konton xdg-desktop-por[31423]: No skeleton to export
+abr 05 14:32:01 konton xdg-desktop-por[31423]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 14:32:26 konton xdg-desktop-por[31423]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:32:26 konton xdg-desktop-por[31423]: No skeleton to export
+abr 05 14:32:26 konton xdg-desktop-por[31423]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 14:32:41 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 14:32:41 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 14:32:41 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 14:33:11 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 14:33:11 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 14:33:11 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 14:33:19 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.345' (uid=1000 pid=31539 comm="kitty")
+abr 05 14:33:19 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 14:33:19 konton xdg-desktop-por[31540]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 14:33:19 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.346' (uid=1000 pid=31540 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 14:33:19 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 14:33:19 konton xdg-desktop-por[31545]: cannot open display: 
+abr 05 14:33:19 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 14:33:19 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 14:33:19 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 14:33:19 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.345' (uid=1000 pid=31539 comm="kitty")
+abr 05 14:33:19 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 14:33:19 konton systemd[1053]: Started kitty-31539-0.scope - kitty child process: 31555 launched by: 31539.
+abr 05 14:33:19 konton dunst[31549]: WARNING: Cannot open X11 display.
+abr 05 14:33:19 konton dunst[31549]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 14:33:19 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 14:33:19 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 14:33:19 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 14:33:44 konton xdg-desktop-por[31540]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 14:34:09 konton xdg-desktop-por[31540]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:34:09 konton xdg-desktop-por[31540]: No skeleton to export
+abr 05 14:34:09 konton xdg-desktop-por[31540]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 14:34:34 konton xdg-desktop-por[31540]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:34:34 konton xdg-desktop-por[31540]: No skeleton to export
+abr 05 14:34:34 konton xdg-desktop-por[31540]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 14:34:35 konton systemd[1053]: Started kitty-31645-0.scope - kitty child process: 31653 launched by: 31645.
+abr 05 14:34:49 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 14:34:49 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 14:34:49 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 14:35:12 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.12' (uid=1000 pid=1184 comm="/usr/lib/firefox-esr/firefox-esr")
+abr 05 14:35:12 konton systemd[1053]: Starting gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+abr 05 14:35:12 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+abr 05 14:35:12 konton systemd[1053]: Started gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+abr 05 14:35:12 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.12' (uid=1000 pid=1184 comm="/usr/lib/firefox-esr/firefox-esr")
+abr 05 14:35:12 konton systemd[1053]: Starting gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+abr 05 14:35:12 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+abr 05 14:35:12 konton systemd[1053]: Started gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+abr 05 14:35:12 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.12' (uid=1000 pid=1184 comm="/usr/lib/firefox-esr/firefox-esr")
+abr 05 14:35:12 konton systemd[1053]: Starting gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+abr 05 14:35:12 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+abr 05 14:35:12 konton systemd[1053]: Started gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+abr 05 14:35:12 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.12' (uid=1000 pid=1184 comm="/usr/lib/firefox-esr/firefox-esr")
+abr 05 14:35:12 konton systemd[1053]: Starting gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+abr 05 14:35:12 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+abr 05 14:35:12 konton systemd[1053]: Started gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+abr 05 14:35:12 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.12' (uid=1000 pid=1184 comm="/usr/lib/firefox-esr/firefox-esr")
+abr 05 14:35:12 konton systemd[1053]: Starting gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+abr 05 14:35:12 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+abr 05 14:35:12 konton systemd[1053]: Started gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+abr 05 14:35:13 konton gvfsd-wsdd[31778]: Failed to spawn the wsdd daemon: Falha ao executar processo filho “wsdd” (Arquivo ou diretório inexistente)
+abr 05 14:35:13 konton gvfsd-network[31766]: Couldn't create directory monitor on wsdd:///. Error: A montagem automática falhou: Falha ao gerar o daemon wsdd subjacente.
+abr 05 14:35:18 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.12' (uid=1000 pid=1184 comm="/usr/lib/firefox-esr/firefox-esr")
+abr 05 14:35:18 konton systemd[1053]: Starting gvfs-metadata.service - Virtual filesystem metadata service...
+abr 05 14:35:18 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Successfully activated service 'org.gtk.vfs.Metadata'
+abr 05 14:35:18 konton systemd[1053]: Started gvfs-metadata.service - Virtual filesystem metadata service.
+abr 05 14:35:19 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 14:35:19 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 14:35:19 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 14:46:22 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.309' (uid=1000 pid=30606 comm="/usr/share/discord/Discord")
+abr 05 14:46:22 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 14:46:22 konton dunst[32779]: WARNING: Cannot open X11 display.
+abr 05 14:46:22 konton dunst[32779]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 14:46:22 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 14:46:22 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 14:46:22 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 14:46:34 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.375' (uid=1000 pid=32787 comm="kitty")
+abr 05 14:46:34 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 14:46:34 konton xdg-desktop-por[32788]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 14:46:34 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.376' (uid=1000 pid=32788 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 14:46:34 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 14:46:34 konton xdg-desktop-por[32793]: cannot open display: 
+abr 05 14:46:34 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 14:46:34 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 14:46:34 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 14:46:34 konton systemd[1053]: Started kitty-32787-0.scope - kitty child process: 32802 launched by: 32787.
+abr 05 14:46:59 konton xdg-desktop-por[32788]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 14:47:24 konton xdg-desktop-por[32788]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:47:24 konton xdg-desktop-por[32788]: No skeleton to export
+abr 05 14:47:24 konton xdg-desktop-por[32788]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 14:47:31 konton systemd[1053]: Started kitty-26666-1.scope - kitty child process: 33386 launched by: 26666.
+abr 05 14:47:32 konton systemd[1053]: kitty-26666-0.scope: Consumed 20.800s CPU time, 48.9M memory peak.
+abr 05 14:47:49 konton xdg-desktop-por[32788]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:47:49 konton xdg-desktop-por[32788]: No skeleton to export
+abr 05 14:47:49 konton xdg-desktop-por[32788]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 14:47:54 konton systemd[1053]: app-org.chromium.Chromium-19329.scope: Consumed 2min 16.979s CPU time, 1.1G memory peak.
+abr 05 14:47:54 konton systemd[1053]: Started kitty-32787-1.scope - kitty child process: 33479 launched by: 32787.
+abr 05 14:48:04 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 14:48:04 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 14:48:04 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 14:48:17 konton systemd[1053]: Started kitty-33517-0.scope - kitty child process: 33525 launched by: 33517.
+abr 05 14:48:22 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 14:48:22 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.379' (uid=1000 pid=32894 comm="/usr/share/discord/Discord")
+abr 05 14:48:22 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 14:48:22 konton dunst[33543]: WARNING: Cannot open X11 display.
+abr 05 14:48:22 konton dunst[33543]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 14:48:22 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 14:48:22 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 14:48:22 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 14:48:28 konton systemd[1053]: Started kitty-33517-1.scope - kitty child process: 33671 launched by: 33517.
+abr 05 14:48:34 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 14:48:34 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 14:49:19 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.407' (uid=1000 pid=34023 comm="kitty")
+abr 05 14:49:19 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 14:49:19 konton xdg-desktop-por[34024]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 14:49:19 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.408' (uid=1000 pid=34024 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 14:49:19 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 14:49:19 konton xdg-desktop-por[34029]: cannot open display: 
+abr 05 14:49:19 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 14:49:19 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 14:49:19 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 14:49:19 konton systemd[1053]: Started kitty-34023-0.scope - kitty child process: 34038 launched by: 34023.
+abr 05 14:49:23 konton systemd[1053]: Started app-org.chromium.Chromium-34055.scope.
+abr 05 14:49:44 konton xdg-desktop-por[34024]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 14:50:09 konton xdg-desktop-por[34024]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:50:09 konton xdg-desktop-por[34024]: No skeleton to export
+abr 05 14:50:09 konton xdg-desktop-por[34024]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 14:50:22 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 14:50:34 konton xdg-desktop-por[34024]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 14:50:34 konton xdg-desktop-por[34024]: No skeleton to export
+abr 05 14:50:34 konton xdg-desktop-por[34024]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 14:50:38 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.427' (uid=1000 pid=35176 comm="kitty")
+abr 05 14:50:38 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 14:50:38 konton systemd[1053]: Started kitty-35176-0.scope - kitty child process: 35185 launched by: 35176.
+abr 05 14:50:38 konton dunst[35179]: WARNING: Cannot open X11 display.
+abr 05 14:50:38 konton dunst[35179]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 14:50:38 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 14:50:38 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 14:50:38 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 14:50:41 konton systemd[1053]: Started kitty-35208-0.scope - kitty child process: 35216 launched by: 35208.
+abr 05 14:50:45 konton systemd[1053]: Started kitty-35234-0.scope - kitty child process: 35242 launched by: 35234.
+abr 05 14:50:49 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 14:50:49 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 14:50:49 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 14:51:19 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 14:51:19 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 14:52:38 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 16:04:23 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.638' (uid=1000 pid=40176 comm="kitty")
+abr 05 16:04:23 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 16:04:23 konton xdg-desktop-por[40177]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 16:04:23 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.639' (uid=1000 pid=40177 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 16:04:23 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 16:04:23 konton xdg-desktop-por[40182]: cannot open display: 
+abr 05 16:04:23 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 16:04:23 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 16:04:23 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 16:04:23 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.638' (uid=1000 pid=40176 comm="kitty")
+abr 05 16:04:23 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 16:04:24 konton systemd[1053]: Started kitty-40176-0.scope - kitty child process: 40192 launched by: 40176.
+abr 05 16:04:24 konton dunst[40186]: WARNING: Cannot open X11 display.
+abr 05 16:04:24 konton dunst[40186]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 16:04:24 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 16:04:24 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 16:04:24 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 16:04:48 konton xdg-desktop-por[40177]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 16:05:13 konton xdg-desktop-por[40177]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 16:05:13 konton xdg-desktop-por[40177]: No skeleton to export
+abr 05 16:05:13 konton xdg-desktop-por[40177]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 16:05:38 konton xdg-desktop-por[40177]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 16:05:38 konton xdg-desktop-por[40177]: No skeleton to export
+abr 05 16:05:38 konton xdg-desktop-por[40177]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 16:05:54 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 16:05:54 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 16:05:54 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 16:06:23 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 16:06:23 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 16:06:23 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 16:09:39 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.648' (uid=1000 pid=40355 comm="kitty")
+abr 05 16:09:39 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 16:09:39 konton xdg-desktop-por[40356]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 16:09:39 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.649' (uid=1000 pid=40356 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 16:09:39 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 16:09:39 konton xdg-desktop-por[40361]: cannot open display: 
+abr 05 16:09:39 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 16:09:39 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 16:09:39 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 16:09:39 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.648' (uid=1000 pid=40355 comm="kitty")
+abr 05 16:09:39 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 16:09:39 konton systemd[1053]: Started kitty-40355-0.scope - kitty child process: 40372 launched by: 40355.
+abr 05 16:09:39 konton dunst[40366]: WARNING: Cannot open X11 display.
+abr 05 16:09:39 konton dunst[40366]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 16:09:39 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 16:09:39 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 16:09:39 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 16:09:57 konton systemd[1053]: Started kitty-40415-0.scope - kitty child process: 40425 launched by: 40415.
+abr 05 16:10:04 konton xdg-desktop-por[40356]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 16:10:29 konton xdg-desktop-por[40356]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 16:10:29 konton xdg-desktop-por[40356]: No skeleton to export
+abr 05 16:10:29 konton xdg-desktop-por[40356]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 16:10:54 konton xdg-desktop-por[40356]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 16:10:54 konton xdg-desktop-por[40356]: No skeleton to export
+abr 05 16:10:54 konton xdg-desktop-por[40356]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 16:11:09 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 16:11:09 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 16:11:09 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 16:11:39 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 16:11:39 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 16:11:39 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 16:29:22 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.394' (uid=1000 pid=33564 comm="/usr/share/discord/Discord")
+abr 05 16:29:22 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 16:29:22 konton dunst[41232]: WARNING: Cannot open X11 display.
+abr 05 16:29:22 konton dunst[41232]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 16:29:22 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 16:29:22 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 16:29:22 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 16:31:22 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 17:13:50 konton systemd[1053]: app-org.chromium.Chromium-34055.scope: Consumed 3min 41.551s CPU time, 949.2M memory peak.
+abr 05 17:13:51 konton systemd[1053]: Started app-org.chromium.Chromium-45013.scope.
+abr 05 17:13:51 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.778' (uid=1000 pid=45013 comm="/usr/share/code/code")
+abr 05 17:13:51 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 17:13:51 konton xdg-desktop-por[45068]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 17:13:51 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.780' (uid=1000 pid=45068 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 17:13:51 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 17:13:51 konton xdg-desktop-por[45073]: cannot open display: 
+abr 05 17:13:51 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 17:13:51 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 17:13:51 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 17:14:16 konton xdg-desktop-por[45068]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 17:14:41 konton xdg-desktop-por[45068]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 17:14:41 konton xdg-desktop-por[45068]: No skeleton to export
+abr 05 17:14:41 konton xdg-desktop-por[45068]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 17:15:06 konton xdg-desktop-por[45068]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 17:15:06 konton xdg-desktop-por[45068]: No skeleton to export
+abr 05 17:15:06 konton xdg-desktop-por[45068]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 17:15:21 konton systemd[1053]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 17:15:21 konton systemd[1053]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 17:15:21 konton systemd[1053]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 17:15:51 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 17:15:51 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 17:24:37 konton systemd[1053]: app-org.chromium.Chromium-45013.scope: Consumed 29.367s CPU time, 958M memory peak.
+abr 05 17:24:48 konton systemd[1053]: Started kitty-35208-1.scope - kitty child process: 46394 launched by: 35208.
+abr 05 17:24:48 konton systemd[1053]: kitty-35208-0.scope: Consumed 51.874s CPU time, 21.7M memory peak.
+abr 05 17:24:50 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.805' (uid=1000 pid=46405 comm="kitty")
+abr 05 17:24:50 konton systemd[1053]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 17:24:50 konton xdg-desktop-por[46406]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 17:24:50 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.806' (uid=1000 pid=46406 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 17:24:50 konton systemd[1053]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 17:24:50 konton xdg-desktop-por[46411]: cannot open display: 
+abr 05 17:24:50 konton systemd[1053]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 17:24:50 konton systemd[1053]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 17:24:50 konton systemd[1053]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 17:24:50 konton dbus-daemon[1074]: [session uid=1000 pid=1074 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.805' (uid=1000 pid=46405 comm="kitty")
+abr 05 17:24:50 konton systemd[1053]: Starting dunst.service - Dunst notification daemon...
+abr 05 17:24:50 konton systemd[1053]: Started kitty-46405-0.scope - kitty child process: 46421 launched by: 46405.
+abr 05 17:24:50 konton dunst[46415]: WARNING: Cannot open X11 display.
+abr 05 17:24:50 konton dunst[46415]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 17:24:50 konton systemd[1053]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 17:24:50 konton systemd[1053]: dunst.service: Failed with result 'signal'.
+abr 05 17:24:50 konton systemd[1053]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 17:25:06 konton systemd[1053]: Started kitty-46624-0.scope - kitty child process: 46632 launched by: 46624.
+abr 05 17:25:13 konton sudo[46646]:   konton : TTY=pts/1 ; PWD=/home/konton ; USER=root ; COMMAND=/usr/sbin/reboot
+abr 05 17:25:13 konton sudo[46646]: pam_unix(sudo:session): session opened for user root(uid=0) by konton(uid=1000)
+abr 05 17:25:13 konton sudo[46646]: pam_unix(sudo:session): session closed for user root
+abr 05 17:25:13 konton systemd[1053]: Activating special unit exit.target...
+abr 05 17:25:13 konton systemd[1053]: Stopped target default.target - Main User Target.
+abr 05 17:25:13 konton systemd[1053]: Stopping at-spi-dbus-bus.service - Accessibility services bus...
+abr 05 17:25:13 konton systemd[1053]: Stopping dconf.service - User preferences database...
+abr 05 17:25:13 konton systemd[1053]: Stopping filter-chain.service - PipeWire filter chain daemon...
+abr 05 17:25:13 konton systemd[1053]: Stopping fluidsynth.service - FluidSynth Daemon...
+abr 05 17:25:13 konton systemd[1053]: Stopping gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+abr 05 17:25:13 konton systemd[1053]: Stopping gvfs-daemon.service - Virtual filesystem service...
+abr 05 17:25:13 konton systemd[1053]: Stopping gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+abr 05 17:25:13 konton systemd[1053]: Stopping gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+abr 05 17:25:13 konton systemd[1053]: Stopping gvfs-metadata.service - Virtual filesystem metadata service...
+abr 05 17:25:13 konton systemd[1053]: Stopping gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+abr 05 17:25:13 konton systemd[1053]: Stopping gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+abr 05 17:25:13 konton systemd[1053]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+abr 05 17:25:13 konton systemd[1053]: Stopping xdg-document-portal.service - flatpak document portal service...
+abr 05 17:25:13 konton systemd[1053]: Stopping xdg-permission-store.service - sandboxed app permission store...
+abr 05 17:25:13 konton systemd[1053]: Stopped filter-chain.service - PipeWire filter chain daemon.
+abr 05 17:25:13 konton systemd[1053]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+abr 05 17:25:13 konton systemd[1053]: pipewire-pulse.service: Consumed 3min 2.175s CPU time, 41.5M memory peak.
+abr 05 17:25:13 konton systemd[1053]: gvfs-daemon.service: Killing process 31759 (Trash Worker Th) with signal SIGKILL.
+abr 05 17:25:13 konton systemd[1053]: Stopped at-spi-dbus-bus.service - Accessibility services bus.
+abr 05 17:25:13 konton systemd[1053]: Stopped xdg-permission-store.service - sandboxed app permission store.
+abr 05 17:25:13 konton systemd[1053]: Stopped xdg-document-portal.service - flatpak document portal service.
+abr 05 17:25:13 konton systemd[1053]: Stopped dconf.service - User preferences database.
+abr 05 17:25:13 konton systemd[1053]: Stopped gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+abr 05 17:25:13 konton systemd[1053]: Stopped gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+abr 05 17:25:13 konton systemd[1053]: Stopped gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+abr 05 17:25:13 konton systemd[1053]: Stopped gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+abr 05 17:25:13 konton systemd[1053]: Stopped gvfs-metadata.service - Virtual filesystem metadata service.
+abr 05 17:25:13 konton systemd[1053]: Stopped xdg-desktop-portal.service - Portal service.
+abr 05 17:25:13 konton wireplumber[1079]: m-dbus-connection: <WpDBusConnection:0x5593507b37a0> DBus connection closed: Underlying GIOStream returned 0 bytes on an async read
+abr 05 17:25:13 konton systemd[1053]: Stopping dbus.service - D-Bus User Message Bus...
+abr 05 17:25:13 konton systemd[1053]: Stopping wireplumber.service - Multimedia Service Session Manager...
+abr 05 17:25:13 konton wireplumber[1079]: m-dbus-connection: <WpDBusConnection:0x5593507b37a0> Trying to reconnect after core sync
+abr 05 17:25:13 konton wireplumber[1079]: wireplumber: stopped by signal: Terminado
+abr 05 17:25:13 konton wireplumber[1079]: wireplumber: disconnected from pipewire
+abr 05 17:25:13 konton systemd[1053]: Stopped dbus.service - D-Bus User Message Bus.
+abr 05 17:25:13 konton systemd[1053]: Stopped wireplumber.service - Multimedia Service Session Manager.
+abr 05 17:25:13 konton systemd[1053]: wireplumber.service: Consumed 53.048s CPU time, 33.8M memory peak.
+abr 05 17:25:13 konton systemd[1053]: Stopped gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+abr 05 17:25:13 konton systemd[1053]: Stopped gvfs-daemon.service - Virtual filesystem service.
+abr 05 17:25:13 konton systemd[1053]: Stopped fluidsynth.service - FluidSynth Daemon.
+abr 05 17:25:13 konton systemd[1053]: fluidsynth.service: Consumed 1min 14.289s CPU time, 312.2M memory peak.
+abr 05 17:25:13 konton systemd[1053]: Stopping pipewire.service - PipeWire Multimedia Service...
+abr 05 17:25:13 konton systemd[1053]: Stopped pipewire.service - PipeWire Multimedia Service.
+abr 05 17:25:13 konton systemd[1053]: pipewire.service: Consumed 1min 58.239s CPU time, 28.7M memory peak.
+abr 05 17:25:13 konton systemd[1053]: Removed slice session.slice - User Core Session Slice.
+abr 05 17:25:13 konton systemd[1053]: session.slice: Consumed 5min 55.354s CPU time, 127.8M memory peak.
+abr 05 17:25:13 konton systemd[1053]: Stopped target basic.target - Basic System.
+abr 05 17:25:13 konton systemd[1053]: Stopped target paths.target - Paths.
+abr 05 17:25:13 konton systemd[1053]: Stopped target sockets.target - Sockets.
+abr 05 17:25:13 konton systemd[1053]: Stopped target timers.target - Timers.
+abr 05 17:25:13 konton systemd[1053]: Closed dbus.socket - D-Bus User Message Bus Socket.
+abr 05 17:25:13 konton systemd[1053]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+abr 05 17:25:13 konton systemd[1053]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+abr 05 17:25:13 konton systemd[1053]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+abr 05 17:25:13 konton systemd[1053]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+abr 05 17:25:13 konton systemd[1053]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+abr 05 17:25:13 konton systemd[1053]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+abr 05 17:25:13 konton systemd[1053]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+abr 05 17:25:13 konton systemd[1053]: Closed keyboxd.socket - GnuPG public key management service.
+abr 05 17:25:13 konton systemd[1053]: Closed pipewire-pulse.socket - PipeWire PulseAudio.
+abr 05 17:25:13 konton systemd[1053]: Closed pipewire.socket - PipeWire Multimedia System Sockets.
+abr 05 17:25:13 konton systemd[1053]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+abr 05 17:25:13 konton systemd[1053]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+abr 05 17:25:13 konton systemd[1053]: Removed slice app.slice - User Application Slice.
+abr 05 17:25:13 konton systemd[1053]: app.slice: Consumed 7min 42.485s CPU time, 1.4G memory peak.
+abr 05 17:25:13 konton systemd[1053]: Reached target shutdown.target - Shutdown.
+abr 05 17:25:13 konton systemd[1053]: Finished systemd-exit.service - Exit the Session.
+abr 05 17:25:13 konton systemd[1053]: Reached target exit.target - Exit the Session.
+abr 05 17:25:13 konton (sd-pam)[1055]: pam_unix(systemd-user:session): session closed for user konton
+-- Boot d7c24f08412b4115b9db4a0efac5bb47 --
+abr 05 20:51:50 konton systemd[1034]: Queued start job for default target default.target.
+abr 05 20:51:50 konton systemd[1034]: Created slice app.slice - User Application Slice.
+abr 05 20:51:50 konton systemd[1034]: Created slice session.slice - User Core Session Slice.
+abr 05 20:51:50 konton systemd[1034]: Reached target paths.target - Paths.
+abr 05 20:51:50 konton systemd[1034]: Reached target timers.target - Timers.
+abr 05 20:51:50 konton systemd[1034]: Starting dbus.socket - D-Bus User Message Bus Socket...
+abr 05 20:51:50 konton systemd[1034]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+abr 05 20:51:50 konton systemd[1034]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+abr 05 20:51:50 konton systemd[1034]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+abr 05 20:51:50 konton systemd[1034]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+abr 05 20:51:50 konton systemd[1034]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+abr 05 20:51:50 konton systemd[1034]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+abr 05 20:51:50 konton systemd[1034]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+abr 05 20:51:50 konton systemd[1034]: Listening on keyboxd.socket - GnuPG public key management service.
+abr 05 20:51:50 konton systemd[1034]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+abr 05 20:51:50 konton systemd[1034]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+abr 05 20:51:50 konton systemd[1034]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+abr 05 20:51:50 konton systemd[1034]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+abr 05 20:51:50 konton systemd[1034]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+abr 05 20:51:50 konton systemd[1034]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+abr 05 20:51:50 konton systemd[1034]: Reached target sockets.target - Sockets.
+abr 05 20:51:50 konton systemd[1034]: Reached target basic.target - Basic System.
+abr 05 20:51:50 konton systemd[1034]: Starting dbus.service - D-Bus User Message Bus...
+abr 05 20:51:50 konton systemd[1034]: Started pipewire.service - PipeWire Multimedia Service.
+abr 05 20:51:50 konton systemd[1034]: Started filter-chain.service - PipeWire filter chain daemon.
+abr 05 20:51:50 konton systemd[1034]: Starting fluidsynth.service - FluidSynth Daemon...
+abr 05 20:51:50 konton systemd[1034]: Started wireplumber.service - Multimedia Service Session Manager.
+abr 05 20:51:50 konton systemd[1034]: Started pipewire-pulse.service - PipeWire PulseAudio.
+abr 05 20:51:50 konton systemd[1034]: Started dbus.service - D-Bus User Message Bus.
+abr 05 20:51:50 konton wireplumber[1060]: wp-internal-comp-loader: Loading profile 'main'
+abr 05 20:51:50 konton fluidsynth[1073]: Failed to create secure directory (/run/user/1000/pulse): Read-only file system
+abr 05 20:51:50 konton fluidsynth[1073]: Failed to create secure directory (/run/user/1000/pulse): Read-only file system
+abr 05 20:51:50 konton fluidsynth[1073]: Failed to create secure directory (/run/user/1000/pulse): Read-only file system
+abr 05 20:51:51 konton systemd[1034]: Started fluidsynth.service - FluidSynth Daemon.
+abr 05 20:51:51 konton systemd[1034]: Reached target default.target - Main User Target.
+abr 05 20:51:51 konton systemd[1034]: Startup finished in 655ms.
+abr 05 20:51:51 konton fluidsynth[1073]: fluidsynth: warning: Failed to set thread to high priority
+abr 05 20:51:51 konton fluidsynth[1073]: ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+abr 05 20:51:51 konton fluidsynth[1073]: fluidsynth: error: Failed to open the "default" audio device
+abr 05 20:51:51 konton fluidsynth[1073]: Failed to create the audio driver. Giving up.
+abr 05 20:51:51 konton wireplumber[1060]: wp-device: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
+abr 05 20:51:51 konton wireplumber[1060]: s-monitors: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
+abr 05 20:51:51 konton wireplumber[1060]: wp-device: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
+abr 05 20:51:51 konton wireplumber[1060]: s-monitors: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
+abr 05 20:51:51 konton wireplumber[1060]: pw.resource: can't create node: Arquivo ou diretório inexistente
+abr 05 20:51:51 konton wireplumber[1060]: wp-node: failed to create node from factory 'spa-node-factory'
+abr 05 20:51:51 konton wireplumber[1060]: s-monitors: Failed to create BLE MIDI server.
+abr 05 20:51:51 konton wireplumber[1060]: wp-device: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+abr 05 20:51:51 konton wireplumber[1060]: s-monitors-libcamera: PipeWire's libcamera SPA plugin is missing or broken. Some camera types may not be supported.
+abr 05 20:51:57 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.10' (uid=1000 pid=1166 comm="rofi -show drun")
+abr 05 20:51:57 konton systemd[1034]: Starting gvfs-daemon.service - Virtual filesystem service...
+abr 05 20:51:57 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Successfully activated service 'org.gtk.vfs.Daemon'
+abr 05 20:51:57 konton systemd[1034]: Started gvfs-daemon.service - Virtual filesystem service.
+abr 05 20:51:59 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.14' (uid=1000 pid=1179 comm="/usr/share/discord/Discord")
+abr 05 20:51:59 konton systemd[1034]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 20:51:59 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.16' (uid=1000 pid=1235 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 20:51:59 konton systemd[1034]: Starting xdg-permission-store.service - sandboxed app permission store...
+abr 05 20:51:59 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+abr 05 20:51:59 konton systemd[1034]: Started xdg-permission-store.service - sandboxed app permission store.
+abr 05 20:51:59 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.16' (uid=1000 pid=1235 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 20:51:59 konton systemd[1034]: Starting xdg-document-portal.service - flatpak document portal service...
+abr 05 20:51:59 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Successfully activated service 'org.freedesktop.portal.Documents'
+abr 05 20:51:59 konton systemd[1034]: Started xdg-document-portal.service - flatpak document portal service.
+abr 05 20:51:59 konton xdg-desktop-por[1235]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 20:51:59 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.16' (uid=1000 pid=1235 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 20:51:59 konton systemd[1034]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 20:51:59 konton xdg-desktop-por[1272]: cannot open display: 
+abr 05 20:51:59 konton systemd[1034]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 20:51:59 konton systemd[1034]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 20:51:59 konton systemd[1034]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 20:51:59 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.13' (uid=1000 pid=1179 comm="/usr/share/discord/Discord")
+abr 05 20:51:59 konton systemd[1034]: Starting at-spi-dbus-bus.service - Accessibility services bus...
+abr 05 20:51:59 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Successfully activated service 'org.a11y.Bus'
+abr 05 20:51:59 konton systemd[1034]: Started at-spi-dbus-bus.service - Accessibility services bus.
+abr 05 20:52:00 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.21' (uid=1000 pid=1293 comm="kitty")
+abr 05 20:52:00 konton systemd[1034]: Starting dunst.service - Dunst notification daemon...
+abr 05 20:52:00 konton systemd[1034]: Started kitty-1293-0.scope - kitty child process: 1325 launched by: 1293.
+abr 05 20:52:00 konton dunst[1324]: WARNING: Cannot open X11 display.
+abr 05 20:52:00 konton dunst[1324]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 20:52:00 konton systemd[1034]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 20:52:00 konton systemd[1034]: dunst.service: Failed with result 'signal'.
+abr 05 20:52:00 konton systemd[1034]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 20:52:09 konton systemd[1034]: Started kitty-1293-1.scope - kitty child process: 1676 launched by: 1293.
+abr 05 20:52:11 konton systemd[1034]: Started kitty-1689-0.scope - kitty child process: 1697 launched by: 1689.
+abr 05 20:52:16 konton systemd[1034]: Started kitty-1689-1.scope - kitty child process: 1725 launched by: 1689.
+abr 05 20:52:24 konton xdg-desktop-por[1235]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 20:52:33 konton systemd[1034]: Started app-org.chromium.Chromium-1772.scope.
+abr 05 20:52:46 konton easyeffects[1741]: pw.conf: setting config.name to client-rt.conf is deprecated, using client.conf
+abr 05 20:52:46 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.32' (uid=1000 pid=1741 comm="easyeffects")
+abr 05 20:52:46 konton systemd[1034]: Starting dconf.service - User preferences database...
+abr 05 20:52:46 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Successfully activated service 'ca.desrt.dconf'
+abr 05 20:52:46 konton systemd[1034]: Started dconf.service - User preferences database.
+abr 05 20:52:47 konton at-spi-bus-launcher[2481]: dbus-daemon[2481]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=1741 comm="easyeffects")
+abr 05 20:52:47 konton at-spi-bus-launcher[2481]: dbus-daemon[2481]: Successfully activated service 'org.a11y.atspi.Registry'
+abr 05 20:52:47 konton at-spi-bus-launcher[2507]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+abr 05 20:52:49 konton xdg-desktop-por[1235]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 20:52:49 konton xdg-desktop-por[1235]: No skeleton to export
+abr 05 20:52:49 konton xdg-desktop-por[1235]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 20:53:14 konton xdg-desktop-por[1235]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 20:53:14 konton xdg-desktop-por[1235]: No skeleton to export
+abr 05 20:53:14 konton xdg-desktop-por[1235]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 20:53:29 konton systemd[1034]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 20:53:29 konton systemd[1034]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 20:53:29 konton systemd[1034]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 20:53:59 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 20:53:59 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 20:54:00 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 20:59:23 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.67' (uid=1000 pid=3203 comm="kitty")
+abr 05 20:59:23 konton systemd[1034]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 20:59:23 konton xdg-desktop-por[3204]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 20:59:23 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.68' (uid=1000 pid=3204 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 20:59:23 konton systemd[1034]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 20:59:23 konton xdg-desktop-por[3209]: cannot open display: 
+abr 05 20:59:23 konton systemd[1034]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 20:59:23 konton systemd[1034]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 20:59:23 konton systemd[1034]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 20:59:23 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.67' (uid=1000 pid=3203 comm="kitty")
+abr 05 20:59:23 konton systemd[1034]: Starting dunst.service - Dunst notification daemon...
+abr 05 20:59:23 konton systemd[1034]: Started kitty-3203-0.scope - kitty child process: 3219 launched by: 3203.
+abr 05 20:59:23 konton dunst[3213]: WARNING: Cannot open X11 display.
+abr 05 20:59:23 konton dunst[3213]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 20:59:23 konton systemd[1034]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 20:59:23 konton systemd[1034]: dunst.service: Failed with result 'signal'.
+abr 05 20:59:23 konton systemd[1034]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 20:59:48 konton xdg-desktop-por[3204]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 21:00:13 konton xdg-desktop-por[3204]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 21:00:13 konton xdg-desktop-por[3204]: No skeleton to export
+abr 05 21:00:13 konton xdg-desktop-por[3204]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 21:00:38 konton xdg-desktop-por[3204]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 21:00:38 konton xdg-desktop-por[3204]: No skeleton to export
+abr 05 21:00:38 konton xdg-desktop-por[3204]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 21:00:53 konton systemd[1034]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 21:00:53 konton systemd[1034]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 21:00:53 konton systemd[1034]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 21:01:22 konton systemd[1034]: app-org.chromium.Chromium-1772.scope: Consumed 23.157s CPU time, 1.1G memory peak.
+abr 05 21:01:23 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 21:01:23 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 21:01:23 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 21:01:58 konton systemd[1034]: Started app-org.chromium.Chromium-3335.scope.
+abr 05 21:01:58 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.78' (uid=1000 pid=3335 comm="/usr/share/code/code")
+abr 05 21:01:58 konton systemd[1034]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 21:01:58 konton xdg-desktop-por[3391]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 21:01:58 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.80' (uid=1000 pid=3391 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 21:01:58 konton systemd[1034]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 21:01:58 konton xdg-desktop-por[3396]: cannot open display: 
+abr 05 21:01:58 konton systemd[1034]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 21:01:58 konton systemd[1034]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 21:01:58 konton systemd[1034]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 21:02:23 konton xdg-desktop-por[3391]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 21:02:48 konton xdg-desktop-por[3391]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 21:02:48 konton xdg-desktop-por[3391]: No skeleton to export
+abr 05 21:02:48 konton xdg-desktop-por[3391]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 21:03:13 konton xdg-desktop-por[3391]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 21:03:13 konton xdg-desktop-por[3391]: No skeleton to export
+abr 05 21:03:13 konton xdg-desktop-por[3391]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 21:03:19 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.91' (uid=1000 pid=4104 comm="kitty")
+abr 05 21:03:19 konton systemd[1034]: Starting dunst.service - Dunst notification daemon...
+abr 05 21:03:19 konton systemd[1034]: Started kitty-4104-0.scope - kitty child process: 4113 launched by: 4104.
+abr 05 21:03:19 konton dunst[4107]: WARNING: Cannot open X11 display.
+abr 05 21:03:19 konton dunst[4107]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 21:03:19 konton systemd[1034]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 21:03:19 konton systemd[1034]: dunst.service: Failed with result 'signal'.
+abr 05 21:03:19 konton systemd[1034]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 21:03:25 konton sudo[4140]:   konton : TTY=pts/5 ; PWD=/home/konton ; USER=root ; COMMAND=/usr/bin/apt install sober
+abr 05 21:03:25 konton sudo[4140]: pam_unix(sudo:session): session opened for user root(uid=0) by konton(uid=1000)
+abr 05 21:03:25 konton sudo[4140]: pam_unix(sudo:session): session closed for user root
+abr 05 21:03:28 konton systemd[1034]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 21:03:28 konton systemd[1034]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 21:03:28 konton systemd[1034]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 21:03:58 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 21:03:58 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 21:04:39 konton systemd[1034]: kitty-4104-0.scope: Consumed 397ms CPU time, 94.4M memory peak.
+abr 05 21:05:19 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 21:45:30 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.137' (uid=1000 pid=6688 comm="kitty")
+abr 05 21:45:30 konton systemd[1034]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 21:45:30 konton xdg-desktop-por[6689]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 21:45:30 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.138' (uid=1000 pid=6689 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 21:45:30 konton systemd[1034]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 21:45:30 konton xdg-desktop-por[6694]: cannot open display: 
+abr 05 21:45:30 konton systemd[1034]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 21:45:30 konton systemd[1034]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 21:45:30 konton systemd[1034]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 21:45:30 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.137' (uid=1000 pid=6688 comm="kitty")
+abr 05 21:45:30 konton systemd[1034]: Starting dunst.service - Dunst notification daemon...
+abr 05 21:45:30 konton systemd[1034]: Started kitty-6688-0.scope - kitty child process: 6704 launched by: 6688.
+abr 05 21:45:30 konton dunst[6698]: WARNING: Cannot open X11 display.
+abr 05 21:45:30 konton dunst[6698]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 21:45:30 konton systemd[1034]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 21:45:30 konton systemd[1034]: dunst.service: Failed with result 'signal'.
+abr 05 21:45:30 konton systemd[1034]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 21:45:55 konton xdg-desktop-por[6689]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 21:46:20 konton xdg-desktop-por[6689]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 21:46:20 konton xdg-desktop-por[6689]: No skeleton to export
+abr 05 21:46:20 konton xdg-desktop-por[6689]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 21:46:45 konton xdg-desktop-por[6689]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 21:46:45 konton xdg-desktop-por[6689]: No skeleton to export
+abr 05 21:46:45 konton xdg-desktop-por[6689]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 21:46:45 konton systemd[1034]: Started kitty-3203-1.scope - kitty child process: 6883 launched by: 3203.
+abr 05 21:47:00 konton systemd[1034]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 21:47:00 konton systemd[1034]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 21:47:00 konton systemd[1034]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 21:47:30 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 21:47:30 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 21:47:30 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 22:20:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.173' (uid=1000 pid=11036 comm="kitty")
+abr 05 22:20:49 konton systemd[1034]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 22:20:49 konton xdg-desktop-por[11037]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 22:20:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.174' (uid=1000 pid=11037 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 22:20:49 konton systemd[1034]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 22:20:49 konton xdg-desktop-por[11042]: cannot open display: 
+abr 05 22:20:49 konton systemd[1034]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 22:20:49 konton systemd[1034]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 22:20:49 konton systemd[1034]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 22:20:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.173' (uid=1000 pid=11036 comm="kitty")
+abr 05 22:20:49 konton systemd[1034]: Starting dunst.service - Dunst notification daemon...
+abr 05 22:20:49 konton systemd[1034]: Started kitty-11036-0.scope - kitty child process: 11052 launched by: 11036.
+abr 05 22:20:49 konton dunst[11046]: WARNING: Cannot open X11 display.
+abr 05 22:20:49 konton dunst[11046]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 22:20:49 konton systemd[1034]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 22:20:49 konton systemd[1034]: dunst.service: Failed with result 'signal'.
+abr 05 22:20:49 konton systemd[1034]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 22:20:53 konton sudo[11098]:   konton : TTY=pts/4 ; PWD=/home/konton ; USER=root ; COMMAND=/usr/bin/apt install clock
+abr 05 22:20:53 konton sudo[11098]: pam_unix(sudo:session): session opened for user root(uid=0) by konton(uid=1000)
+abr 05 22:20:53 konton sudo[11098]: pam_unix(sudo:session): session closed for user root
+abr 05 22:21:14 konton xdg-desktop-por[11037]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 22:21:39 konton xdg-desktop-por[11037]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 22:21:39 konton xdg-desktop-por[11037]: No skeleton to export
+abr 05 22:21:39 konton xdg-desktop-por[11037]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 22:22:04 konton xdg-desktop-por[11037]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 22:22:04 konton xdg-desktop-por[11037]: No skeleton to export
+abr 05 22:22:04 konton xdg-desktop-por[11037]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 22:22:19 konton systemd[1034]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 22:22:19 konton systemd[1034]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 22:22:19 konton systemd[1034]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 22:22:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 22:22:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 22:22:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 22:23:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.179' (uid=1000 pid=11445 comm="kitty")
+abr 05 22:23:49 konton systemd[1034]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 22:23:49 konton xdg-desktop-por[11446]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 22:23:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.180' (uid=1000 pid=11446 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 22:23:49 konton systemd[1034]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 22:23:49 konton xdg-desktop-por[11451]: cannot open display: 
+abr 05 22:23:49 konton systemd[1034]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 22:23:49 konton systemd[1034]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 22:23:49 konton systemd[1034]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 22:23:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.179' (uid=1000 pid=11445 comm="kitty")
+abr 05 22:23:49 konton systemd[1034]: Starting dunst.service - Dunst notification daemon...
+abr 05 22:23:49 konton systemd[1034]: Started kitty-11445-0.scope - kitty child process: 11461 launched by: 11445.
+abr 05 22:23:49 konton dunst[11455]: WARNING: Cannot open X11 display.
+abr 05 22:23:49 konton dunst[11455]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 22:23:49 konton systemd[1034]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 22:23:49 konton systemd[1034]: dunst.service: Failed with result 'signal'.
+abr 05 22:23:49 konton systemd[1034]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 22:23:55 konton systemd[1034]: Started kitty-11445-1.scope - kitty child process: 11493 launched by: 11445.
+abr 05 22:24:14 konton xdg-desktop-por[11446]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 22:24:39 konton xdg-desktop-por[11446]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 22:24:39 konton xdg-desktop-por[11446]: No skeleton to export
+abr 05 22:24:39 konton xdg-desktop-por[11446]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 22:25:04 konton xdg-desktop-por[11446]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 22:25:04 konton xdg-desktop-por[11446]: No skeleton to export
+abr 05 22:25:04 konton xdg-desktop-por[11446]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 22:25:19 konton systemd[1034]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 22:25:19 konton systemd[1034]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 22:25:19 konton systemd[1034]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 22:25:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 22:25:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 22:25:49 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 22:42:29 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.218' (uid=1000 pid=14433 comm="kitty")
+abr 05 22:42:29 konton systemd[1034]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 22:42:29 konton xdg-desktop-por[14434]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 22:42:29 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.219' (uid=1000 pid=14434 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 22:42:29 konton systemd[1034]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 22:42:29 konton xdg-desktop-por[14439]: cannot open display: 
+abr 05 22:42:29 konton systemd[1034]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 22:42:29 konton systemd[1034]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 22:42:29 konton systemd[1034]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 22:42:29 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.218' (uid=1000 pid=14433 comm="kitty")
+abr 05 22:42:29 konton systemd[1034]: Starting dunst.service - Dunst notification daemon...
+abr 05 22:42:29 konton systemd[1034]: Started kitty-14433-0.scope - kitty child process: 14449 launched by: 14433.
+abr 05 22:42:29 konton dunst[14443]: WARNING: Cannot open X11 display.
+abr 05 22:42:29 konton dunst[14443]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 22:42:29 konton systemd[1034]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 22:42:29 konton systemd[1034]: dunst.service: Failed with result 'signal'.
+abr 05 22:42:29 konton systemd[1034]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 22:42:54 konton xdg-desktop-por[14434]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 22:43:19 konton xdg-desktop-por[14434]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 22:43:19 konton xdg-desktop-por[14434]: No skeleton to export
+abr 05 22:43:19 konton xdg-desktop-por[14434]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 22:43:44 konton xdg-desktop-por[14434]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 22:43:44 konton xdg-desktop-por[14434]: No skeleton to export
+abr 05 22:43:44 konton xdg-desktop-por[14434]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 22:43:59 konton systemd[1034]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 22:43:59 konton systemd[1034]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 22:43:59 konton systemd[1034]: Failed to start xdg-desktop-portal.service - Portal service.
+abr 05 22:44:29 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+abr 05 22:44:29 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+abr 05 22:44:29 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+abr 05 22:48:13 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.260' (uid=1000 pid=15024 comm="kitty")
+abr 05 22:48:13 konton systemd[1034]: Starting xdg-desktop-portal.service - Portal service...
+abr 05 22:48:13 konton xdg-desktop-por[15025]: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback
+abr 05 22:48:13 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.261' (uid=1000 pid=15025 comm="/usr/libexec/xdg-desktop-portal")
+abr 05 22:48:13 konton systemd[1034]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+abr 05 22:48:13 konton xdg-desktop-por[15030]: cannot open display: 
+abr 05 22:48:13 konton systemd[1034]: xdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE
+abr 05 22:48:13 konton systemd[1034]: xdg-desktop-portal-gtk.service: Failed with result 'exit-code'.
+abr 05 22:48:13 konton systemd[1034]: Failed to start xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+abr 05 22:48:13 konton dbus-daemon[1055]: [session uid=1000 pid=1055 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='dunst.service' requested by ':1.260' (uid=1000 pid=15024 comm="kitty")
+abr 05 22:48:13 konton systemd[1034]: Starting dunst.service - Dunst notification daemon...
+abr 05 22:48:13 konton systemd[1034]: Started kitty-15024-0.scope - kitty child process: 15040 launched by: 15024.
+abr 05 22:48:13 konton dunst[15034]: WARNING: Cannot open X11 display.
+abr 05 22:48:13 konton dunst[15034]: ERROR: [  get_x11_output:0070] Couldn't initialize X11 output. Aborting...
+abr 05 22:48:13 konton systemd[1034]: dunst.service: Main process exited, code=killed, status=5/TRAP
+abr 05 22:48:13 konton systemd[1034]: dunst.service: Failed with result 'signal'.
+abr 05 22:48:13 konton systemd[1034]: Failed to start dunst.service - Dunst notification daemon.
+abr 05 22:48:38 konton xdg-desktop-por[15025]: Choosing gtk.portal for org.freedesktop.impl.portal.Settings as a last-resort fallback
+abr 05 22:48:46 konton systemd[1034]: Started kitty-14433-1.scope - kitty child process: 15122 launched by: 14433.
+abr 05 22:48:47 konton systemd[1034]: app-org.chromium.Chromium-3335.scope: Consumed 2min 38.482s CPU time, 1G memory peak.
+abr 05 22:48:49 konton systemd[1034]: Started app-org.chromium.Chromium-15143.scope.
+abr 05 22:49:03 konton xdg-desktop-por[15025]: Failed to create settings proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 22:49:03 konton xdg-desktop-por[15025]: No skeleton to export
+abr 05 22:49:03 konton xdg-desktop-por[15025]: Choosing gtk.portal for org.freedesktop.impl.portal.FileChooser as a last-resort fallback
+abr 05 22:49:28 konton xdg-desktop-por[15025]: Failed to create file chooser proxy: Erro ao chamar StartServiceByName para org.freedesktop.impl.portal.desktop.gtk: O tempo limite foi alcançado
+abr 05 22:49:28 konton xdg-desktop-por[15025]: No skeleton to export
+abr 05 22:49:28 konton xdg-desktop-por[15025]: Choosing gtk.portal for org.freedesktop.impl.portal.AppChooser as a last-resort fallback
+abr 05 22:49:34 konton systemd[1034]: Started kitty-16075-0.scope - kitty child process: 16083 launched by: 16075.
+abr 05 22:49:43 konton systemd[1034]: xdg-desktop-portal.service: start operation timed out. Terminating.
+abr 05 22:49:43 konton systemd[1034]: xdg-desktop-portal.service: Failed with result 'timeout'.
+abr 05 22:49:43 konton systemd[1034]: Failed to start xdg-desktop-portal.service - Portal service.
