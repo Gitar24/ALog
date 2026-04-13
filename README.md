@@ -7,7 +7,7 @@ Ferramenta CLI em Python para leitura e classificação automática de logs de s
 - Lê arquivos de log no formato padrão do systemd/journald
 - Filtra automaticamente entradas de **ERROR** e **WARNING**
 - Exibe data, aplicação e mensagem de forma organizada no terminal
-- 
+  
 ## Como usar
 
 ```bash
@@ -22,8 +22,8 @@ analisar("meus_logs.txt")
 
 Substitua `"meus_logs.txt"` pelo caminho do seu arquivo de log.
 
-
 ## Exemplo de saída
+
 Data: abr 05 10:57:55
 App: fluidsynth
 Mensagem:  Failed to open the "default" audio device
