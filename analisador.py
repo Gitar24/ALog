@@ -1,6 +1,6 @@
 import re
 def analisar(arquivo):
-  with open('arquivo','r') as log:
+  with open(arquivo,'r') as log:
       for x in log:
         resultado = re.search(r"(\w+\s\d+\s[\d:]+)\s(\w+)\s(.+?)\:(.+)", x)
         if 'ERROR' in x or 'WARNING' in x:
