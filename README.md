@@ -6,38 +6,34 @@ Ferramenta CLI em Python para leitura e classificação automática de logs de s
 
 - Lê arquivos de log no formato padrão do systemd/journald
 - Filtra automaticamente entradas de **ERROR** e **WARNING**
-- Exibe data, aplicação e mensagem de forma organizada no terminal
-  
+- Exibe data, host, aplicação, nível e mensagem de forma organizada no terminal
+- Suporte a passagem de arquivo via argumento na linha de comando
+
 ## Como usar
 
 ```bash
-python funcoes.py
+python argparse.py caminho/do/arquivo
 ```
 
-O arquivo de log analisado é definido diretamente em `funcoes.py`:
+Exemplo:
 
-```python
-analisar("meus_logs.txt")
+```bash
+python argparse.py meus_logs.txt
 ```
-
-Substitua `"meus_logs.txt"` pelo caminho do seu arquivo de log.
 
 ## Exemplo de saída
-
-Data: abr 05 10:57:55
-App: fluidsynth
-Mensagem:  Failed to open the "default" audio device
 Data: abr 05 11:10:44
-App: dunst
-Mensagem:  Couldn't initialize X11 output. Aborting...
+Host: konton
+App: dunst[12341]
+Nivel: ERROR
+Mensagem: Couldn't initialize X11 output. Aborting...
 
-# Tecnologias
+## Tecnologias
 
 - Python 3
-- Módulo `re` (expressões regulares)
+- Módulos `re` e `argparse`
 
 ## Próximos passos
 
-- Interface web para visualização dos logs
 - Integração com IA para geração de relatórios automáticos
 - Suporte a múltiplos arquivos simultaneamente
