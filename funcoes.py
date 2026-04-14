@@ -1,2 +1,6 @@
+import argparse
 from analisador import analisar
-analisar("meus_logs.txt")
+parser = argparse.ArgumentParser()
+parser.add_argument("arquivo")
+args = parser.parse_args()
+analisar(args.arquivo)
