@@ -105,7 +105,7 @@ Esse comportamento é configurável no `config.yaml`.
 
 - [x] `collector.py` — coleta e parsing de logs
 - [ ] `config.yaml` — configuração
-- [ ] `filter.py` — filtragem por prioridade
+- [x] `filter.py` — filtragem por prioridade
 - [ ] `ai.py` — integração com IA
 - [ ] `reporter.py` — exibição
 - [ ] `alog.py` — orquestração final
