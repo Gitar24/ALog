@@ -28,6 +28,10 @@ keywords = [
     "Out of memory",
     "kernel: possible SYN flooding"
 ]
-
-count = Counter(keywords)
-print(keywords)
+def sus(entrada):
+    logs = entrada.get("MESSAGE")
+    for word in keywords:
+        if word in logs:
+            return True
+        else:
+            return None
