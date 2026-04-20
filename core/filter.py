@@ -1,5 +1,6 @@
 import re
 from collections import Counter
+import subprocess
 #filtra os logs para aqueles que tem o nivel abaixo ou igual a 3
 def deve_processar(entrada):
     if int(entrada.get("PRIORITY")) <= 3:
@@ -33,5 +34,12 @@ def sus(entrada):
     for word in keywords:
         if word in logs:
             return True
-        else:
-            return None
+    return None
+
+def monitorar_ip(entrada,contagem):
+    ip = extrair_ip(entrada)
+    if ip is None:
+        return
+    contagem[ip] += 1
+    if contagem[ip] >= 5:
+        subprocess.run(["sudo","iptables","-A","INPUT","-s",ip,"-j","DROP"])
