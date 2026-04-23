@@ -29,7 +29,7 @@ keywords = [
     "Out of memory",
     "kernel: possible SYN flooding"
 ]
-def sus(entrada):
+def suspeito(entrada):
     logs = entrada.get("MESSAGE")
     for word in keywords:
         if word in logs:

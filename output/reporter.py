@@ -3,4 +3,4 @@ def exibir(entrada):
     prioridade = entrada.get("PRIORITY")
     service = entrada.get("_SYSTEMD_UNIT")
     print(f"Mensagem: {mensagem}\nPrioridade: {prioridade}\nApp: {service}")
-exibir(entrada)
+    print("─" * 40)
