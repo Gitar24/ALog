@@ -1,6 +1,6 @@
 from collections import Counter
 from core.coletor import start_colletor
-from core.filtro import deve_processar, sus, monitorar_ip
+from core.filtro import deve_processar, suspeito, monitorar_ip
 from output.reporter import exibir
 def main():
     contagem = Counter()
