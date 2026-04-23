@@ -5,6 +5,7 @@ ALog monitora logs do sistema em tempo real via `journalctl`, filtra pelo que re
 ---
 
 ## Como funciona
+```bash
 journalctl (fonte)
 │
 ▼
@@ -19,10 +20,11 @@ Normal          Suspeito
 │               │
 Exibe           Conta por IP →
 no terminal     bloqueia após 5 ocorrências
-
+```
 ---
 
 ## Estrutura
+```bash
 alog/
 ├── config.yaml
 ├── alog.py
@@ -31,6 +33,7 @@ alog/
 │   └── filtro.py
 └── output/
 └── reporter.py
+```
 
 **`alog.py`** — orquestra tudo. É o que você executa.
 
