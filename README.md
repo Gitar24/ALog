@@ -1,67 +1,48 @@
 # ALog — Analisador de Logs
 
-ALog é uma ferramenta de monitoramento de logs em tempo real para sistemas Linux. Ele coleta logs do `journalctl`, filtra por prioridade, e usa IA para analisar anomalias — podendo corrigi-las automaticamente quando o risco for baixo.
+ALog monitora logs do sistema em tempo real via `journalctl`, filtra pelo que realmente importa e bloqueia IPs suspeitos automaticamente.
 
 ---
 
 ## Como funciona
-
-```
 journalctl (fonte)
-     │
-     ▼
-Filtro --priority (reduz volume)
-     │
-     ▼
-IA (analisa e classifica o risco)
-     │
-   ┌─┴─────────────┐
-   │               │
-Baixo risco     Alto risco
-   │               │
-Corrige         Exibe sugestão
-automático      aguarda você
-```
+│
+▼
+Filtro de prioridade (níveis 0–3)
+│
+▼
+Detector de padrões suspeitos
+│
+┌─┴─────────────┐
+│               │
+Normal          Suspeito
+│               │
+Exibe           Conta por IP →
+no terminal     bloqueia após 5 ocorrências
 
 ---
 
-## Estrutura do projeto
-
-```
+## Estrutura
 alog/
-├── config.yaml          # Configurações do usuário
-├── alog.py              # Ponto de entrada — orquestra tudo
+├── config.yaml
+├── alog.py
 ├── core/
-│   ├── collector.py     # Interface com o journalctl
-│   ├── filter.py        # Filtragem por prioridade e regex
-│   └── ai.py            # Integração com IA
+│   ├── coletor.py
+│   └── filtro.py
 └── output/
-    └── reporter.py      # Formatação e exibição dos resultados
-```
+└── reporter.py
 
-### O que cada arquivo faz
+**`alog.py`** — orquestra tudo. É o que você executa.
 
-**`alog.py`**
-Arquivo principal. Você executa ele com `python alog.py`. Não contém lógica — só conecta os módulos.
+**`core/coletor.py`** — abre o `journalctl` com `--follow --output=json` e entrega cada log como dicionário Python.
 
-**`config.yaml`**
-Configuração editável pelo usuário. Define prioridade mínima, serviços a monitorar, e comportamento da IA.
+**`core/filtro.py`** — filtra por prioridade (≤ 3), extrai IPs e detecta padrões suspeitos como `Failed password`, `SQL injection`, `segfault`, entre outros.
 
-**`core/collector.py`**
-Abre o processo do `journalctl` com `--follow --output=json` e entrega cada log como um dicionário Python para o resto do programa.
-
-**`core/filter.py`**
-Recebe os logs do collector e descarta o que não é relevante com base na prioridade definida no config.
-
-**`core/ai.py`**
-Pega os logs filtrados, monta um prompt, envia para a IA e retorna a análise com classificação de risco.
-
-**`output/reporter.py`**
-Formata e exibe os resultados no terminal. Decide como mostrar — cores, estrutura, alertas.
+**`output/reporter.py`** — exibe mensagem, prioridade e serviço no terminal.
 
 ---
 
-## Níveis de prioridade (journalctl)
+## Níveis de prioridade
 
 | Nível | Nome | Descrição |
 |-------|------|-----------|
@@ -74,38 +55,32 @@ Formata e exibe os resultados no terminal. Decide como mostrar — cores, estrut
 | 6 | Info | Informacional |
 | 7 | Debug | Mensagens de debug |
 
-> Por padrão o ALog monitora níveis 0–3 (erros e acima).
+> Por padrão o ALog monitora níveis 0–3.
 
 ---
 
-## Correção automática
+## Bloqueio automático de IPs
 
-A IA classifica cada anomalia em três níveis de risco:
+Se um IP suspeito aparece 5 ou mais vezes nos logs, o ALog roda automaticamente:
 
-- **Baixo** — ALog corrige automaticamente (ex: reiniciar serviço caído)
-- **Médio / Alto** — ALog exibe a análise e sugestão, você decide
-
-Esse comportamento é configurável no `config.yaml`.
+```bash
+sudo iptables -A INPUT -s <ip> -j DROP
+```
 
 ---
 
 ## Dependências
+pyyaml
 
-| Necessidade | Biblioteca |
-|---|---|
-| Leitura de YAML | `pyyaml` |
-| Comunicação com journalctl | `subprocess` (built-in) |
-| Parsing de JSON | `json` (built-in) |
-| Regex | `re` (built-in) |
-| IA | `anthropic` |
+O resto é tudo da stdlib (`subprocess`, `json`, `re`, `collections`).
 
 ---
 
-## Status do desenvolvimento
+## Status
 
-- [x] `collector.py` — coleta e parsing de logs
-- [ ] `config.yaml` — configuração
-- [ ] `filter.py` — filtragem por prioridade
-- [ ] `ai.py` — integração com IA
-- [ ] `reporter.py` — exibição
-- [ ] `alog.py` — orquestração final
+- [x] `coletor.py`
+- [x] `filtro.py`
+- [x] `reporter.py`
+- [x] `alog.py`
+- [ ] `config.yaml`
+- [ ] `ai.py`
